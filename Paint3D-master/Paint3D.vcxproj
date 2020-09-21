@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25FCDA52-E8F6-4582-83CE-37C94FB32A18}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Paint3D</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\Open_GLUT_PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\Open_GLUT_PropertySheet.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\proy\dodecahedro_gl.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\proy\icosahedron_glcpp.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\proy\octahedron_gl.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\proy\sphere_gl.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\proy\teapot_gl.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\proy\tetrahedron_gl.cpp" />
+    <ClCompile Include="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\proy\torus_gl.cpp" />
+    <ClCompile Include="..\TareaTranf_instance\box_gl.cpp" />
+    <ClCompile Include="..\TareaTranf_instance\cone_gl.cpp" />
+    <ClCompile Include="..\TareaTranf_instance\cylinder_gl.cpp" />
+    <ClCompile Include="..\TareaTranf_instance\disk_gl.cpp" />
+    <ClCompile Include="..\TareaTranf_instance\object_gl.cpp" />
+    <ClCompile Include="..\TareaTranf_instance\polygon_gl.cpp" />
+    <ClCompile Include="..\TareaTranf_instance\quad_gl.cpp" />
+    <ClCompile Include="..\TareaTranf_instance\triangle_gl.cpp" />
+    <ClCompile Include="line_gl.cpp" />
+    <ClCompile Include="paint_main.cpp" />
+    <ClCompile Include="piramide_gl.cpp" />
+    <ClCompile Include="point_gl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\proy\dodecahedro_gl.h" />
+    <ClInclude Include="..\..\..\..\OneDrive\TEC\semestre12\Graficas computacionales\proy\icosahedron_gl.h" />
+    <ClInclude Include="box_gl.h" />
+    <ClInclude Include="cone_gl.h" />
+    <ClInclude Include="cylinder_gl.h" />
+    <ClInclude Include="disk_gl.h" />
+    <ClInclude Include="dodecahedro_gl.h" />
+    <ClInclude Include="icosahedron_gl.h" />
+    <ClInclude Include="line_gl.h" />
+    <ClInclude Include="object_gl.h" />
+    <ClInclude Include="octahedron_gl.h" />
+    <ClInclude Include="piramide_gl.h" />
+    <ClInclude Include="point_gl.h" />
+    <ClInclude Include="polygon_gl.h" />
+    <ClInclude Include="quad_gl.h" />
+    <ClInclude Include="sphere_gl.h" />
+    <ClInclude Include="teapot_gl.h" />
+    <ClInclude Include="tetrahedron_gl.h" />
+    <ClInclude Include="torus_gl.h" />
+    <ClInclude Include="triangle_gl.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

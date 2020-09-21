@@ -1,0 +1,99 @@
+﻿Compilación iniciada a las 30/03/2017 07:48:23 a. m..
+     1>Proyecto "C:\Users\charl\Documents\Visual Studio 2013\Projects\Paint3D\Paint3D.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt paint_main.cpp
+         paint_main.cpp
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(105): warning C4244: 'inicializando' : conversión de 'int' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(109): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(110): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(115): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(116): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(119): warning C4244: 'inicializando' : conversión de 'int' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(121): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(122): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(127): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(128): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(131): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(132): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(191): warning C4244: 'argumento' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(543): warning C4244: 'argumento' : conversión de 'int' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(573): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(574): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(575): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(632): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(633): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(634): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(639): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(640): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(641): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(630): warning C4101: 'dy' : variable local sin referencia
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(630): warning C4101: 'dz' : variable local sin referencia
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(630): warning C4101: 'dx' : variable local sin referencia
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(662): warning C4244: 'argumento' : conversión de 'int' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(663): warning C4244: 'argumento' : conversión de 'int' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(671): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(672): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(673): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(678): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(679): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(680): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(698): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(699): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(700): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(716): warning C4018: '<' : no coinciden signed/unsigned
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(836): warning C4244: '=' : conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(837): warning C4244: '=' : conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(869): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(870): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(871): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(872): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(873): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(874): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(886): warning C4244: '=' : conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(887): warning C4244: '=' : conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(902): warning C4805: '==' : combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(908): warning C4244: '=' : conversión de 'double' a 'GLint'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(912): warning C4244: '=' : conversión de 'double' a 'GLint'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(916): warning C4244: '=' : conversión de 'double' a 'GLint'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(920): warning C4244: '=' : conversión de 'double' a 'GLint'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(922): warning C4244: '=' : conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(923): warning C4244: '=' : conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(926): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(927): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(931): warning C4805: '==' : combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(935): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(938): warning C4805: '==' : combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(942): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(943): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(1013): warning C4244: 'inicializando' : conversión de 'int' a 'GLfloat'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(1015): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(1019): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(1023): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(1027): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+     1>c:\users\charl\documents\visual studio 2013\projects\paint3d\paint_main.cpp(1031): warning C4244: 'argumento' : conversión de 'GLfloat' a 'int'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\charl\Documents\Visual Studio 2013\Projects\Debug\Paint3D.exe" /INCREMENTAL /NOLOGO freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\charl\Documents\Visual Studio 2013\Projects\Debug\Paint3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\charl\Documents\Visual Studio 2013\Projects\Debug\Paint3D.lib" /MACHINE:X86 Debug\dodecahedro_gl.obj
+         Debug\icosahedron_glcpp.obj
+         Debug\octahedron_gl.obj
+         Debug\sphere_gl.obj
+         Debug\teapot_gl.obj
+         Debug\tetrahedron_gl.obj
+         Debug\torus_gl.obj
+         Debug\box_gl.obj
+         Debug\cone_gl.obj
+         Debug\cylinder_gl.obj
+         Debug\disk_gl.obj
+         Debug\object_gl.obj
+         Debug\polygon_gl.obj
+         Debug\quad_gl.obj
+         Debug\triangle_gl.obj
+         Debug\line_gl.obj
+         Debug\paint_main.obj
+         Debug\piramide_gl.obj
+         Debug\point_gl.obj
+         Paint3D.vcxproj -> C:\Users\charl\Documents\Visual Studio 2013\Projects\Debug\Paint3D.exe
+     1>Compilación del proyecto terminada "C:\Users\charl\Documents\Visual Studio 2013\Projects\Paint3D\Paint3D.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.36
